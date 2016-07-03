@@ -6,7 +6,10 @@ body {
 
 
 /* Navigation link styles */
+nav ul li a {
+  color: #800080;
 
+}
 
 /* everywhere else */
 * {
