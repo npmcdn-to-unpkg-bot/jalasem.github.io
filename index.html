@@ -1,9 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Ajala Abdul-Sami Olalekan | Technology Evengelist | Javascript Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/font-awesome.min.css">
+    <link rel="stylesheet" href="src/materialize.min.css">
+    <link rel="stylesheet" href="src/animate.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="https://npmcdn.com/core-js/client/shim.min.js"></script>
+
+    <script src="https://npmcdn.com/zone.js@0.6.12?main=browser"></script>
+    <script src="https://npmcdn.com/reflect-metadata@0.1.3"></script>
+    <script src="https://npmcdn.com/systemjs@0.19.27/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app/main').catch(function(err){ console.error(err); });
+    </script>
   </head>
+
+  <!-- 3. Display the application -->
   <body>
-    <h1 style='text-align: center; color: purple; font-family: "Segoe UI",monospace; font-weight: 300;'>Site coming soon</h1>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <h4>Ajala Abdul-Samii </h4>
+      </div>
+      <div class="col s12 m6 l6">
+        <h5 class="center-align">Javascript Web, Mobile, Desktop developer  Student@<abbr title="University of Ilorin (http://unilorin.edu.ng)">Unilorin</abbr></h5>
+      </div>
+    </div>
+    <script src="src/jquery.min.js"></script>
+    <script src="src/materialize.min.js"></script>
   </body>
 </html>

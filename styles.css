@@ -1,0 +1,14 @@
+/* Master Styles */
+body {
+  background: #800080 none repeat scroll 0% 0%;
+  color: white;
+}
+
+
+/* Navigation link styles */
+
+
+/* everywhere else */
+* {
+  font-family: "Segoe UI",monospace, Ubuntu;
+}
