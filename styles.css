@@ -1,7 +1,13 @@
 /* Master Styles */
-body {
+/*body {
   background: #800080 none repeat scroll 0% 0%;
   color: white;
+}*/
+
+body {
+    color: white;
+    background-color: #810999;
+    background-image: url("https://www.transparenttextures.com/patterns/robots.png");
 }
 
 
