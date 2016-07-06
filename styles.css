@@ -58,6 +58,6 @@ a.brand-logo {
   100% { transform: rotate(360deg); }
 }
 
-.loading_content {
+.row.loc {
   color: purple
 }
