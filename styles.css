@@ -1,15 +1,10 @@
 /* Master Styles */
-/*body {
-  background: #800080 none repeat scroll 0% 0%;
-  color: white;
-}*/
-
 body {
     color: white;
     background-color: #810999;
-    background-image: url("https://www.transparenttextures.com/patterns/robots.png");
+    background: url(../images/bg2.jpg) 0em -10em;
+    background-size: cover;
 }
-
 
 /* Navigation link styles */
 a.brand-logo,nav ul li a {
@@ -17,7 +12,23 @@ a.brand-logo,nav ul li a {
 
 }
 
+a.brand-logo {
+  padding-left: 1.7em;
+  background: url(../images/geek.png) 0px 7px;
+  background-size: 1.5em auto;
+  background-repeat: no-repeat;
+}
+
+.coming_soon {
+  text-align: center; 
+  font-weight: 300;
+}
+
+.coming_soon span {
+  color: #000;
+}
+
 /* everywhere else */
 * {
-  font-family: "Segoe UI",monospace, Ubuntu;
+  font-family: "Segoe UI",Ubuntu, monospace;
 }
